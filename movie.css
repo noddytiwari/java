@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+  .movie-card {
+    height: 400px;
+    width: 300px;
+    border: 5px solid red;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 20px;
+}
+
+
+.movie-img {
+    
+    height: 170px;
+    min-width: 150px;
+    cursor:pointer; 
+}
+h1{
+    margin-top: 30px;
+}
+h2{
+    margin-top: 0px;
+
+}
+
+p{    margin-top: 0px;
+    margin-left: 15px;
+
+
+}
+a{
+    color: red;
+    font-size: 20px;
+    cursor:pointer;
+    
+} 
+
+/*
+h5{
+    margin: 10px 15px;
+    
+    
+}
+*/
+
+
+.addnewmovie{
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    z-index: 1;
+    position: relative;
+    left: 80px;
+    top: 450px;
+    border: 3px solid green;
+    position: fixed; }
